@@ -30,7 +30,7 @@ class ProductFactory(factory.Factory):
 
         model = Product
 
-    id = factory.Sequence(lambda n: n)
+id = factory.Sequence(lambda n: n)
     name = FuzzyChoice(
         choices=[
             "Hat",
